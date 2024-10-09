@@ -1,11 +1,11 @@
-prefix=/Users/itsdeepjangra/Desktop/QA Sytem using Lama_Gemini/venv
+prefix=/Users/itsdeepjangra/Desktop/QA_Sytem_using_Lama_Gemini/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
-includedir=${prefix}/include
+includedir=${prefix}/include 
 
 Name: OpenSSL-libssl
 Description: Secure Sockets Layer and cryptography libraries
-Version: 3.0.15
+Version: 3.3.2
 Requires.private: libcrypto
 Libs: -L${libdir} -lssl
 Cflags: -I${includedir}
